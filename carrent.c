@@ -138,7 +138,7 @@ void sortByPricePerDay(FILE *file) {
                   &cars[count].rentalPricePerDay, &cars[count].available) != EOF) {
         count++;
     }
-}7
+}
 void loadDataFromFile(FILE *file, Car cars[], int *count) {
     rewind(file);
     *count = 0;
